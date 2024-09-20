@@ -63,16 +63,16 @@
         </div>
       </div>
     </nav>
-    <div class="card m-5 p-5 bg1">
+    <div class="card m-3 p-0 bg1">
       <div class="card-body pb-5">
         <img
-          class="zoom img-cesar"
+          class="zoom img-cesar1"
           src="./assets/img/cesarv.jpeg"
           alt="foto de césar"
         />
         <h5 class="card-title text-light fs-1 fw-bolder mt-3 poppins-regular">
           Hola, soy
-          <span class="text-warning poppins-bold">César Verduzco</span>
+          <span class="text-warning poppins-bold">César Verduzco</span> <br />
           <div class="spinner-grow text-success p-1 mt-0" role="status"></div>
           <a
             href="https://api.whatsapp.com/send?phone=5214423851952&text=%C2%A1Hola!%20Trabajemos%20juntos."
@@ -82,9 +82,9 @@
             </button>
           </a>
         </h5>
-        <p class="card-text text-light fs-3 mt-4 poppins-regular">
+        <p class="card-text text-light fs-4 mt-4 poppins-regular">
           +2 años de experiencia.
-          <span class="text-warning fs-3 poppins-semibold">
+          <span class="text-warning fs-4 poppins-semibold">
             Ingeniero en Sistemas Computacionales y Analista de Datos</span
           >
           de Querétaro, México
@@ -96,7 +96,7 @@
           class="btn btn-outline-primary mt-3 me-2 poppins-regular"
         >
           <i class="fa-solid fa-envelope"></i>
-          Contáctame
+          Mail
         </a>
         <a
           href="https://www.linkedin.com/in/c%C3%A9sar-verduzco/"
@@ -107,14 +107,14 @@
         >
       </div>
       <div class="card-body pt-5">
-        <h1 class="card-title fw-bolder mt-5 poppins-bold mb-5 text-light">
-          <i id="experiencia" class="fa-solid fa-briefcase"></i>
+        <h1 id="experiencia" class="card-title poppins-bold mb-4 text-light">
+          <i class="fa-solid fa-briefcase text-gradient"></i>
           <span class="text-gradient">Experiencia Laboral</span>
         </h1>
         <div class="container mt-2">
           <div class="timeline">
             <div class="timeline-row">
-              <div class="timeline-time text-light poppins-semibold">
+              <div class="timeline-time text-light playwrite-cu">
                 Actualmente...
               </div>
               <div class="timeline-content">
@@ -132,7 +132,7 @@
               </div>
             </div>
             <div class="timeline-row">
-              <div class="timeline-time text-light poppins-semibold">
+              <div class="timeline-time text-light playwrite-cu">
                 Julio 2022
               </div>
               <div class="timeline-content">
@@ -157,11 +157,11 @@
         </div>
       </div>
       <div class="card-body pt-0"></div>
-      <h1 class="card-title text-light fw-bolder mt-5">
-        <i class="fa-solid fa-school" style="color: #ffffff"></i>
-        <span id="educacion" class="poppins-bold text-gradient">Educación</span>
+      <h1 id="educacion" class="card-title poppins-semibold text-light ms-3">
+        <i class="fa-solid fa-school text-gradient"></i>
+        <span class="poppins-bold text-gradient">Educación</span>
       </h1>
-      <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+      <div class="row row-cols-1 row-cols-md-2 g-4 m-1">
         <div class="col">
           <div class="card border-0">
             <div class="card-body">
@@ -203,136 +203,146 @@
           <div class="card bg1">
             <img
               src="./assets/img/cesarverduzco.jpg"
-              style="width: 75%; height: 75%"
-              class="zoom img-fluid img-cesar"
+              class="zoom img-fluid mx-auto img-cesar2"
               alt="foto de cesar verduzco"
             />
           </div>
         </div>
       </div>
       <div class="card-body pt-0"></div>
-      <h1 id="portafolio" class="card-title text-light fw-bolder mt-5 mb-5">
-        <i class="fa-solid fa-laptop"></i>
+      <h1
+        id="portafolio"
+        class="card-title text-light fw-bolder mt-3 mb-4 ms-3"
+      >
+        <i class="fa-solid fa-laptop text-gradient"></i>
         <span class="poppins-bold text-gradient">Mi portafolio</span>
       </h1>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="./assets/img/mi-primer-portafolio.png"
-              class="d-block w-100 img-portafolio"
-              alt="Mi primer portafolio"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="https://github.com/cverduzco23/My-First-Resume"
-                ><h5 class="poppins-bold">
-                  <i class="fa-brands fa-html5"></i> Mi primer CV en HTML
-                </h5>
-              </a>
-              <p class="poppins-light px-2">
-                Mi primer CV creado en HTML para Desafío LATAM.
-              </p>
-            </div>
+      <section class="px-3">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/mi-primer-portafolio.png"
+                class="d-block w-100 img-portafolio"
+                alt="Mi primer portafolio"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="https://github.com/cverduzco23/My-First-Resume"
+                  ><h5 class="poppins-bold">
+                    <i class="fa-brands fa-html5"></i> Mi primer CV en HTML
+                  </h5>
+                </a>
+                <p class="poppins-light px-2">
+                  Mi primer CV creado en HTML para Desafío LATAM.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/my-first-landing-page.png"
+                class="d-block w-100"
+                alt="Mi primera landing page"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="https://github.com/cverduzco23/My-First-Landing-Page">
+                  <h5 class="poppins-bold">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i> Mi primera Landing
+                    Page
+                  </h5>
+                </a>
+                <p class="poppins-light px-2">
+                  Mi primera landing page creada con CSS y HTML para Desafío
+                  LATAM.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/iguana-landing-page.png"
+                class="d-block w-100"
+                alt="Iguana landing page"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="https://github.com/cverduzco23/Iguana-Landing-Page"
+                  ><h5 class="poppins-bold">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i> Iguana Landing Page
+                  </h5>
+                </a>
+                <p class="poppins-light px-2">
+                  Una landing page sobre iguanas creada con HTML, CSS y Flex
+                  para Desafío LATAM.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item"></div>
             <img
-              src="./assets/img/my-first-landing-page.png"
+              src="./assets/img/cuppon-landing-page.png"
               class="d-block w-100"
-              alt="Mi primera landing page"
+              alt="Cuppon Landing Page"
             />
             <div class="carousel-caption d-none d-md-block">
-              <a href="https://github.com/cverduzco23/My-First-Landing-Page">
-                <h5 class="poppins-bold">
-                  <i class="fa-brands fa-html5"></i>
-                  <i class="fa-brands fa-css3-alt"></i> Mi primera Landing Page
-                </h5>
-              </a>
-              <p class="poppins-light px-2">
-                Mi primera landing page creada con CSS y HTML para Desafío
-                LATAM.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="./assets/img/iguana-landing-page.png"
-              class="d-block w-100"
-              alt="Iguana landing page"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="https://github.com/cverduzco23/Iguana-Landing-Page"
+              <a href="https://github.com/cverduzco23/Cuppon-Landing-Page"
                 ><h5 class="poppins-bold">
                   <i class="fa-brands fa-html5"></i>
-                  <i class="fa-brands fa-css3-alt"></i> Iguana Landing Page
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <i class="fa-brands fa-bootstrap"></i> Cuppon Landing Page
                 </h5>
               </a>
               <p class="poppins-light px-2">
-                Una landing page sobre iguanas creada con HTML, CSS y Flex para
-                Desafío LATAM.
+                Una landing page sobre cupones creada con HTML, CSS y Bootstrap
+                para Desafío LATAM.
               </p>
             </div>
           </div>
-          <div class="carousel-item"></div>
-          <img
-            src="./assets/img/cuppon-landing-page.png"
-            class="d-block w-100"
-            alt="Cuppon Landing Page"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <a href="https://github.com/cverduzco23/Cuppon-Landing-Page"
-              ><h5 class="poppins-bold">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-bootstrap"></i> Cuppon Landing Page
-              </h5>
-            </a>
-            <p class="poppins-light px-2">
-              Una landing page sobre cupones creada con HTML, CSS y Bootstrap
-              para Desafío LATAM.
-            </p>
-          </div>
         </div>
-      </div>
+      </section>
     </div>
     <footer>
       <div class="card text-center border-0">
-        <div id="contactame" class="card-header text-light bg1 poppins-bold fs-1 ">
+        <div
+          id="contactame"
+          class="card-header text-light bg1 poppins-bold fs-1"
+        >
           ¡Trabajemos juntos!
         </div>
         <div class="card-body">
-          <h5 class="card-title text-light poppins-semibold">¡Hablemos un día!</h5>
+          <h5 class="card-title text-light poppins-semibold">
+            ¡Hablemos un día!
+          </h5>
           <p class="card-text text-light poppins-regular">
             ¡Me encantarían nuevas oportunidades y grandes proyectos!
           </p>
@@ -351,7 +361,9 @@
             class="btn btn-outline-primary poppins-regular"
             ><i class="fa-solid fa-envelope fa-beat"></i> Mail</a
           >
-          <h5 class="card-title text-light playwrite-cu pt-5 fs-1">César Verduzco</h5>
+          <h5 class="card-title text-light playwrite-cu pt-5 fs-1">
+            César Verduzco
+          </h5>
         </div>
         <div class="card-footer text-body-secondary bg1 pt-5 poppins-regular">
           César Verduzco, 2024. <i class="fa-solid fa-r"></i> Todos los derechos

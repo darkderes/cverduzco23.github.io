@@ -17,6 +17,10 @@ img {
   border-radius: 10%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text-gradient {
   color: transparent;
   background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #FFD700);    
@@ -35,10 +39,16 @@ img {
   }
 }
 
-.img-cesar {
-  height: 8em;
-  width: 9em;
+.img-cesar1 {
+  height: 91px;
+  width: 100px;
   border-radius: 100%;
+}
+
+.img-cesar2 {
+  height: 400px;
+  width: 300px;
+  border-radius: 10%;
 }
 
 .zoom {
