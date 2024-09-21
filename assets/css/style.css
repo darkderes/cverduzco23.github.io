@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
-  background: rgb(1, 0, 8);
-}
-
-body {
-  background: rgb(1, 0, 8);
-}
-
+*,
+body,
 footer {
   background: rgb(1, 0, 8);
 }
@@ -23,19 +17,19 @@ a {
 
 .text-gradient {
   color: transparent;
-  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #FFD700);    
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #FFD700);
   background-clip: text;
   animation: color 3s linear infinite;
-  background-size: 500%;    
+  background-size: 500%;
 }
 
 @keyframes color {
   from {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 
   to {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
 }
 
@@ -52,11 +46,11 @@ a {
 }
 
 .zoom {
-  transition: transform .5s; 
+  transition: transform .5s;
 }
 
 .zoom:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .card-header1 {
@@ -211,30 +205,38 @@ a {
   .timeline {
     padding: 15px;
   }
+
   .timeline:after {
     border: 0;
   }
+
   .timeline .timeline-row:nth-child(odd) {
     padding: 0;
   }
+
   .timeline .timeline-row:nth-child(odd) .timeline-time {
     position: relative;
     top: 0;
     left: 0;
     margin: 0 0 10px 0;
   }
+
   .timeline .timeline-row:nth-child(odd) .timeline-content {
     margin: 0;
   }
+
   .timeline .timeline-row:nth-child(odd) .timeline-content:before {
     display: none;
   }
+
   .timeline .timeline-row:nth-child(odd) .timeline-content:after {
     display: none;
   }
+
   .timeline .timeline-row:nth-child(even) {
     padding: 0;
   }
+
   .timeline .timeline-row:nth-child(even) .timeline-time {
     position: relative;
     top: 0;
@@ -242,12 +244,15 @@ a {
     margin: 0 0 10px 0;
     text-align: left;
   }
+
   .timeline .timeline-row:nth-child(even) .timeline-content {
     margin: 0;
   }
+
   .timeline .timeline-row:nth-child(even) .timeline-content:before {
     display: none;
   }
+
   .timeline .timeline-row:nth-child(even) .timeline-content:after {
     display: none;
   }
